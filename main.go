@@ -28,7 +28,7 @@ func getBookByID(c *gin.Context) {
 			return
 		}
 	}
-	c.JSON(http.StatusNotFound, gin.H{"message": "Book not found"})
+	c.JSON(http.StatusNotFound, gin.H{"message": "Buku tidak ditemukan"})
 }
 
 func addBook(c *gin.Context) {
