@@ -12,7 +12,7 @@ type Book struct {
 }
 
 var books = []Book{
-	{"1", "Golang Basics", "John Doe"},
+	{"1", "Golang Basics", "Dimas adi saputra"},
 	{"2", "Advanced Golang", "Jane Doe"},
 }
 
