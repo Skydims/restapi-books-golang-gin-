@@ -13,7 +13,7 @@ type Book struct {
 
 var books = []Book{
 	{"1", "Golang Basics", "Dimas adi saputra"},
-	{"2", "Advanced Golang", "Jane Doe"},
+	{"2", "Advanced Golang", "Saraah juliansari"},
 }
 
 func getBooks(c *gin.Context) {
